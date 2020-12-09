@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using ContactManager.Services;
+using Contact_Manager.Services;
 
 namespace Contact_Manager.Controllers
 {
@@ -21,19 +21,9 @@ namespace Contact_Manager.Controllers
         public Contact[] Get()
         {
             return contactRepository.GetAllContacts();
-            {
-        new Contact
-        {
-            Id = 1,
-            Name = "Glenn Block"
-        },
-        new Contact
-        {
-            Id = 2,
-            Name = "Dan Roth"
         }
-    };
-        }
+    
+        
     }
 
     

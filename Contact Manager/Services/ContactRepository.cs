@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using ContactManager.Models;
+using Contact_Manager.Models;
 
 namespace Contact_Manager.Services
 {
